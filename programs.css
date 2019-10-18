@@ -1,0 +1,53 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: James Craven
+   Date:   10/17/2019
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+/* Styles for overall Table with Class "Programs" */
+/* Sets a solid border around the table and changes the font family */
+table.programs {
+	width: 100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+/* Sets Location and font size for "All Times Central" caption */
+
+table.programs caption {
+	caption-side: bottom;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+/* Table Body Data Cell Styles */
+
+table.programs tbody td {
+	font-size: 0.7em;
+	vertical-align: top;
+	border: 1px solid gray;
+	padding: 2px;
+}
+
+table.programs tr {
+	height: 25px;
+}
+
+table.programs thead {
+	color: white;
+	background-color: rgb(105, 177, 60);
+}
+
+table.programs thead th {
+	font-size:0.7em;
+	border: 1px solid gray;
+}
